@@ -1,0 +1,20 @@
+PODS:
+  - BGFMDB (2.0.5):
+    - BGFMDB/BG (= 2.0.5)
+    - BGFMDB/FMDB (= 2.0.5)
+  - BGFMDB/BG (2.0.5):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.5)
+  - SWTableViewCell (0.3.7)
+
+DEPENDENCIES:
+  - BGFMDB (~> 2.0.5)
+  - SWTableViewCell (~> 0.3.7)
+
+SPEC CHECKSUMS:
+  BGFMDB: ad37e775f1af81925bb7e8a3bc23640d98e9d4c2
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+
+PODFILE CHECKSUM: 30239d91d625a217baff249ba437b0da01def32f
+
+COCOAPODS: 1.4.0

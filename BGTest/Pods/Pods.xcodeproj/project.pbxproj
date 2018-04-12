@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02555892B04DC23EBF0F5FD934EB98BB /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C5E46004CF0749C7C700679E7A5C3 /* SWUtilityButtonView.m */; };
+		05DD0C4370034274DD2275C751554A82 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA59D60100F803FE589A8AA1B32FB3E /* SWUtilityButtonTapGestureRecognizer.m */; };
+		0EBCBB46C675F7A748FDFB23C22E2907 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCA48075525ABCD656F8A2BF4A68EE8 /* FMDatabaseAdditions.m */; };
+		11F643DC6137502DFAF29BACD936DC64 /* BGFMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 2786CFB98B1D0AE0FB76C6FC136702DD /* BGFMDB.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16BE2365A8C5B6932ECFD28273611771 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF4E5350D9F10D525B2641D95B921FC /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		17BB2ED8E1E20872C5A1CF1F5408F828 /* BGFMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03D6A7C52E0B2FBCDE2AA3C6664356 /* BGFMDB-dummy.m */; };
+		3217265B44BB7A0FFCE5A321AF75208D /* BGTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4214E74065202F68FFC603BD32C4B633 /* BGTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35CF9A3D999BAF790FF4E9E31980DFB6 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5631B69C7216D2737FAC8685B956C0 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		382AA1F0C89C80244B1158A2A5968803 /* BGDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B4311A469295D21BB7987EFAA06CA8 /* BGDB.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E8ECAB4EBF0B15B4A0944DF39B9FE85 /* NSObject+BGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8E4F4F1C9A2B71077FFA0FDBF7591 /* NSObject+BGModel.m */; };
+		618CA59A93EA060BC3AF64427F2470FE /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AB1BAC166AA2E7BE3E057DAB712B6 /* SWTableViewCell.m */; };
+		68E2229000D2AFFC33049DD285A2C37E /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A2633DADE6DDA18C173B289A71BAF90 /* FMDB.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A88C9E82DD68D466E8380EB5EE4EE40 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E8671408D046F170CCCE39329401D5 /* FMResultSet.m */; };
+		6B9ED125A3D8299BAA8C4F18CE666B73 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FF2A19DE7129FBF9CB83C19CA3F44F /* FMDatabase.m */; };
+		72C63514343A39820B36A515CD4226A0 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0C59230EAFAFCDD3885BDAFC1C0D7A /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D803D1DD1BC256DC80A23585715F25B /* BGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DE9954B293C6EC1BA2AECDCB1B8700 /* BGTool.m */; };
+		853915F7CD05C35883A2CFA9416579CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		87338109C7B868A34B78325C0BF55226 /* BGModelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DDBD1E333EA1447F72A32A4D3F5E79 /* BGModelInfo.m */; };
+		8E81B176141E5DF2D04F2503B6D5C035 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 2965478C5847516CF26AF91951757692 /* NSMutableArray+SWUtilityButtons.m */; };
+		8F4594ED0FF685AFFF09401B880E34F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		91EE79AA77EC71BB3538B1280ACA6FF0 /* BGModelInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C021FEAC03DDF2D9B929B62901FB6AE /* BGModelInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D937054E9943AF89F6269B5D32FC7B1 /* NSObject+BGModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 601564557A8C7F0753F364C3025711DC /* NSObject+BGModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E89A9B5BE00B044514F3B9A693F67EB /* SWUtilityButtonTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 12115A086F6E115C0576B298141FDAEE /* SWUtilityButtonTapGestureRecognizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A5122E314371FADD8592DA1D5A6C2690 /* SWUtilityButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F2E3A286DA5CFA77770DD704EC686BA /* SWUtilityButtonView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7DCC1CF693D415DB22912B2348E2BB7 /* SWTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF95DB42E5D0D3373658696099E644F /* SWTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF7DAAA6145A3179F4E08D0892E6D2F3 /* BGFMDBConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 3363DFAF228659CEA9F76A7CD6A2A440 /* BGFMDBConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B33716ED4225F14EB6E1E1845CE2D7E6 /* SWCellScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 06494124616CB12F9317EF6D07067521 /* SWCellScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5671BD0819965E8165F3624BEC698FD /* SWLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD71787ABA8507137741076E309E547 /* SWLongPressGestureRecognizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8E7213FD6CCC110842100CD307A8346 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 102EAA4F1D14110FDA68D2233D43D596 /* FMDatabaseQueue.m */; };
+		BF2FB87EB918428671108370FC8A4E67 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD53DE4A4A85090E535D04AD9A56812B /* SWLongPressGestureRecognizer.m */; };
+		C034C9C1756728A24AD6F85222E91EF4 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = B62A52BCE6334E81D63BC1D98976F1A9 /* FMDatabase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0B03A2E159B10F5D8248A6D3DEB5EDD /* BGDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 622BA6D8C0D8FE7090209A8110AED97F /* BGDB.m */; };
+		C4183FE2D8354E991C7B002E65D87CF3 /* Pods-BGTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B0D0463599A988A5B9CBD517AEB6DE /* Pods-BGTest-dummy.m */; };
+		C8DDFFEE576F86B7B8E2E44B55605487 /* NSCache+BGCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ABE960D53BFEB029966EC9B7288FBB6 /* NSCache+BGCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C95BC7A6FC4A711FFD92CFD7073F43CE /* NSMutableArray+SWUtilityButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F577EF59D338FD155316EA50124FFC7 /* NSMutableArray+SWUtilityButtons.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD57848DA92B85C7BD5829AACFB92D4F /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F9C88F595B2EED3555628EAA398FCD4D /* FMResultSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D07839532BA92F3035F23A183E2A5AC3 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 93739B0EC14D042EB771BC6592DB5729 /* FMDatabasePool.m */; };
+		D3AB649AE72FBA6A749F7D0EE38FC224 /* SWTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BF7217C0652DE50C1A47B10AF60AD2 /* SWTableViewCell-dummy.m */; };
+		DEDE0114F1BBE9353529030F47420326 /* NSCache+BGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F708E831CB3C180254C2D3C61798A7B2 /* NSCache+BGCache.m */; };
+		F0F76BE30823C36DC1DBD837D1682108 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F754C21A5DCC7859B1C684F7B7321C69 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 241FD6609B78BA4D82C6F47F4870580B /* SWCellScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A2866E2262380D30C49429A71268D29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F77BA67BA985F9F539357610AF82734;
+			remoteInfo = SWTableViewCell;
+		};
+		69BF21F0F5E406B9B0E3748DC73114A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDA0B89046F28B1B2AAE4CC9C16E2C7;
+			remoteInfo = BGFMDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05DDBD1E333EA1447F72A32A4D3F5E79 /* BGModelInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BGModelInfo.m; path = BGFMDB/libs/BG/BGModelInfo.m; sourceTree = "<group>"; };
+		06494124616CB12F9317EF6D07067521 /* SWCellScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWCellScrollView.h; path = SWTableViewCell/PodFiles/SWCellScrollView.h; sourceTree = "<group>"; };
+		102EAA4F1D14110FDA68D2233D43D596 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = BGFMDB/libs/FMDB/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		12115A086F6E115C0576B298141FDAEE /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonTapGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		13DF9A6411A8A690A72B40623420261E /* Pods-BGTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BGTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		1BD71787ABA8507137741076E309E547 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWLongPressGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		241FD6609B78BA4D82C6F47F4870580B /* SWCellScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWCellScrollView.m; path = SWTableViewCell/PodFiles/SWCellScrollView.m; sourceTree = "<group>"; };
+		2786CFB98B1D0AE0FB76C6FC136702DD /* BGFMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BGFMDB.h; path = BGFMDB/libs/BG/BGFMDB.h; sourceTree = "<group>"; };
+		2965478C5847516CF26AF91951757692 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SWUtilityButtons.m"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		2A2633DADE6DDA18C173B289A71BAF90 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = BGFMDB/libs/FMDB/FMDB.h; sourceTree = "<group>"; };
+		2B9652DEEA3654AF7A744BFAFDA16C7E /* SWTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		2CA59D60100F803FE589A8AA1B32FB3E /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonTapGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		2DFC5146DB2E51E69933A5BD0F7851DE /* Pods-BGTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BGTest-frameworks.sh"; sourceTree = "<group>"; };
+		2FF95DB42E5D0D3373658696099E644F /* SWTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWTableViewCell.h; path = SWTableViewCell/PodFiles/SWTableViewCell.h; sourceTree = "<group>"; };
+		3363DFAF228659CEA9F76A7CD6A2A440 /* BGFMDBConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BGFMDBConfig.h; path = BGFMDB/libs/BG/BGFMDBConfig.h; sourceTree = "<group>"; };
+		3F44D49878ED68754A0FFEA45047A8E9 /* SWTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWTableViewCell.xcconfig; sourceTree = "<group>"; };
+		4214E74065202F68FFC603BD32C4B633 /* BGTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BGTool.h; path = BGFMDB/libs/BG/BGTool.h; sourceTree = "<group>"; };
+		47DE9954B293C6EC1BA2AECDCB1B8700 /* BGTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BGTool.m; path = BGFMDB/libs/BG/BGTool.m; sourceTree = "<group>"; };
+		4A7AB1BAC166AA2E7BE3E057DAB712B6 /* SWTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWTableViewCell.m; path = SWTableViewCell/PodFiles/SWTableViewCell.m; sourceTree = "<group>"; };
+		5F2E3A286DA5CFA77770DD704EC686BA /* SWUtilityButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonView.h; path = SWTableViewCell/PodFiles/SWUtilityButtonView.h; sourceTree = "<group>"; };
+		601564557A8C7F0753F364C3025711DC /* NSObject+BGModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BGModel.h"; path = "BGFMDB/libs/BG/NSObject+BGModel.h"; sourceTree = "<group>"; };
+		622BA6D8C0D8FE7090209A8110AED97F /* BGDB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BGDB.m; path = BGFMDB/libs/BG/BGDB.m; sourceTree = "<group>"; };
+		62BF7217C0652DE50C1A47B10AF60AD2 /* SWTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70107804CC2168CD2E919DEDF3B53290 /* Pods-BGTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BGTest.debug.xcconfig"; sourceTree = "<group>"; };
+		740C5E46004CF0749C7C700679E7A5C3 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonView.m; path = SWTableViewCell/PodFiles/SWUtilityButtonView.m; sourceTree = "<group>"; };
+		79B4311A469295D21BB7987EFAA06CA8 /* BGDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BGDB.h; path = BGFMDB/libs/BG/BGDB.h; sourceTree = "<group>"; };
+		79EF9E297ECFD49B24F9E772A60D976E /* Pods-BGTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BGTest-resources.sh"; sourceTree = "<group>"; };
+		7C021FEAC03DDF2D9B929B62901FB6AE /* BGModelInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BGModelInfo.h; path = BGFMDB/libs/BG/BGModelInfo.h; sourceTree = "<group>"; };
+		7F0C59230EAFAFCDD3885BDAFC1C0D7A /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = BGFMDB/libs/FMDB/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		7F577EF59D338FD155316EA50124FFC7 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SWUtilityButtons.h"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		80B0D0463599A988A5B9CBD517AEB6DE /* Pods-BGTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BGTest-dummy.m"; sourceTree = "<group>"; };
+		8ABE960D53BFEB029966EC9B7288FBB6 /* NSCache+BGCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCache+BGCache.h"; path = "BGFMDB/libs/BG/NSCache+BGCache.h"; sourceTree = "<group>"; };
+		93739B0EC14D042EB771BC6592DB5729 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = BGFMDB/libs/FMDB/FMDatabasePool.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94258480535EDC84B2F84255B21C119F /* BGFMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BGFMDB-prefix.pch"; sourceTree = "<group>"; };
+		9B5631B69C7216D2737FAC8685B956C0 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = BGFMDB/libs/FMDB/FMDatabasePool.h; sourceTree = "<group>"; };
+		A136824B0286143953970602B2222BFF /* libBGFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBGFMDB.a; path = libBGFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF4E5350D9F10D525B2641D95B921FC /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = BGFMDB/libs/FMDB/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		ACCA48075525ABCD656F8A2BF4A68EE8 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = BGFMDB/libs/FMDB/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		B1F8C4EBC310B7C4470D1E9066167A5A /* libPods-BGTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BGTest.a"; path = "libPods-BGTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62A52BCE6334E81D63BC1D98976F1A9 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = BGFMDB/libs/FMDB/FMDatabase.h; sourceTree = "<group>"; };
+		C1E8671408D046F170CCCE39329401D5 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = BGFMDB/libs/FMDB/FMResultSet.m; sourceTree = "<group>"; };
+		C9D8E4F4F1C9A2B71077FFA0FDBF7591 /* NSObject+BGModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BGModel.m"; path = "BGFMDB/libs/BG/NSObject+BGModel.m"; sourceTree = "<group>"; };
+		CD03D6A7C52E0B2FBCDE2AA3C6664356 /* BGFMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BGFMDB-dummy.m"; sourceTree = "<group>"; };
+		CD53DE4A4A85090E535D04AD9A56812B /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWLongPressGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		CF79CA92DBC83E9FDB786BD0262867C5 /* Pods-BGTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BGTest.release.xcconfig"; sourceTree = "<group>"; };
+		D1547F0569F0F52236D07F6C9348D484 /* libSWTableViewCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSWTableViewCell.a; path = libSWTableViewCell.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36807E6AFCD2BDA89FB4521F0F70056 /* BGFMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BGFMDB.xcconfig; sourceTree = "<group>"; };
+		EFF78EF0CD0C6FCB541A8AE5CB0ECAEC /* Pods-BGTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BGTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3FF2A19DE7129FBF9CB83C19CA3F44F /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = BGFMDB/libs/FMDB/FMDatabase.m; sourceTree = "<group>"; };
+		F708E831CB3C180254C2D3C61798A7B2 /* NSCache+BGCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCache+BGCache.m"; path = "BGFMDB/libs/BG/NSCache+BGCache.m"; sourceTree = "<group>"; };
+		F9C88F595B2EED3555628EAA398FCD4D /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = BGFMDB/libs/FMDB/FMResultSet.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2571CD68B81FC228CD0E56E08AC15A00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4594ED0FF685AFFF09401B880E34F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61AF3FF01E02194C23AB4246AE290DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853915F7CD05C35883A2CFA9416579CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F63CC704597DAF9495022AA4DE8489B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F76BE30823C36DC1DBD837D1682108 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CBA1AB7E3991A99F13A13C5D9943BD3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB988013F832AFA9B1EBA00F1B1B1D89 /* Pods-BGTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		493D43C34F7A40F833094291450BFEB2 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				B62A52BCE6334E81D63BC1D98976F1A9 /* FMDatabase.h */,
+				F3FF2A19DE7129FBF9CB83C19CA3F44F /* FMDatabase.m */,
+				AAF4E5350D9F10D525B2641D95B921FC /* FMDatabaseAdditions.h */,
+				ACCA48075525ABCD656F8A2BF4A68EE8 /* FMDatabaseAdditions.m */,
+				9B5631B69C7216D2737FAC8685B956C0 /* FMDatabasePool.h */,
+				93739B0EC14D042EB771BC6592DB5729 /* FMDatabasePool.m */,
+				7F0C59230EAFAFCDD3885BDAFC1C0D7A /* FMDatabaseQueue.h */,
+				102EAA4F1D14110FDA68D2233D43D596 /* FMDatabaseQueue.m */,
+				2A2633DADE6DDA18C173B289A71BAF90 /* FMDB.h */,
+				F9C88F595B2EED3555628EAA398FCD4D /* FMResultSet.h */,
+				C1E8671408D046F170CCCE39329401D5 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		556D630FD8C726206D8D4FD26AB817B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				660B928DDDB6EB2D760B23D3D2994F68 /* BGFMDB */,
+				77AC2CBBE1D3A0858031E78E9ACE98BF /* SWTableViewCell */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		660B928DDDB6EB2D760B23D3D2994F68 /* BGFMDB */ = {
+			isa = PBXGroup;
+			children = (
+				2786CFB98B1D0AE0FB76C6FC136702DD /* BGFMDB.h */,
+				7AF119C6EB87FE97C846A46E1C9762E6 /* BG */,
+				493D43C34F7A40F833094291450BFEB2 /* FMDB */,
+				905FCDFC44733B97C3B5883434C4047E /* Support Files */,
+			);
+			name = BGFMDB;
+			path = BGFMDB;
+			sourceTree = "<group>";
+		};
+		77AC2CBBE1D3A0858031E78E9ACE98BF /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7F577EF59D338FD155316EA50124FFC7 /* NSMutableArray+SWUtilityButtons.h */,
+				2965478C5847516CF26AF91951757692 /* NSMutableArray+SWUtilityButtons.m */,
+				06494124616CB12F9317EF6D07067521 /* SWCellScrollView.h */,
+				241FD6609B78BA4D82C6F47F4870580B /* SWCellScrollView.m */,
+				1BD71787ABA8507137741076E309E547 /* SWLongPressGestureRecognizer.h */,
+				CD53DE4A4A85090E535D04AD9A56812B /* SWLongPressGestureRecognizer.m */,
+				2FF95DB42E5D0D3373658696099E644F /* SWTableViewCell.h */,
+				4A7AB1BAC166AA2E7BE3E057DAB712B6 /* SWTableViewCell.m */,
+				12115A086F6E115C0576B298141FDAEE /* SWUtilityButtonTapGestureRecognizer.h */,
+				2CA59D60100F803FE589A8AA1B32FB3E /* SWUtilityButtonTapGestureRecognizer.m */,
+				5F2E3A286DA5CFA77770DD704EC686BA /* SWUtilityButtonView.h */,
+				740C5E46004CF0749C7C700679E7A5C3 /* SWUtilityButtonView.m */,
+				DB826DD3F2AE557FAB6687110345050C /* Support Files */,
+			);
+			name = SWTableViewCell;
+			path = SWTableViewCell;
+			sourceTree = "<group>";
+		};
+		7AF119C6EB87FE97C846A46E1C9762E6 /* BG */ = {
+			isa = PBXGroup;
+			children = (
+				79B4311A469295D21BB7987EFAA06CA8 /* BGDB.h */,
+				622BA6D8C0D8FE7090209A8110AED97F /* BGDB.m */,
+				3363DFAF228659CEA9F76A7CD6A2A440 /* BGFMDBConfig.h */,
+				7C021FEAC03DDF2D9B929B62901FB6AE /* BGModelInfo.h */,
+				05DDBD1E333EA1447F72A32A4D3F5E79 /* BGModelInfo.m */,
+				4214E74065202F68FFC603BD32C4B633 /* BGTool.h */,
+				47DE9954B293C6EC1BA2AECDCB1B8700 /* BGTool.m */,
+				8ABE960D53BFEB029966EC9B7288FBB6 /* NSCache+BGCache.h */,
+				F708E831CB3C180254C2D3C61798A7B2 /* NSCache+BGCache.m */,
+				601564557A8C7F0753F364C3025711DC /* NSObject+BGModel.h */,
+				C9D8E4F4F1C9A2B71077FFA0FDBF7591 /* NSObject+BGModel.m */,
+			);
+			name = BG;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				556D630FD8C726206D8D4FD26AB817B3 /* Pods */,
+				F25B91E7B6743DDF5E30902EEFCA6384 /* Products */,
+				1CBA1AB7E3991A99F13A13C5D9943BD3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		905FCDFC44733B97C3B5883434C4047E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E36807E6AFCD2BDA89FB4521F0F70056 /* BGFMDB.xcconfig */,
+				CD03D6A7C52E0B2FBCDE2AA3C6664356 /* BGFMDB-dummy.m */,
+				94258480535EDC84B2F84255B21C119F /* BGFMDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BGFMDB";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DB826DD3F2AE557FAB6687110345050C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F44D49878ED68754A0FFEA45047A8E9 /* SWTableViewCell.xcconfig */,
+				62BF7217C0652DE50C1A47B10AF60AD2 /* SWTableViewCell-dummy.m */,
+				2B9652DEEA3654AF7A744BFAFDA16C7E /* SWTableViewCell-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWTableViewCell";
+			sourceTree = "<group>";
+		};
+		F25B91E7B6743DDF5E30902EEFCA6384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A136824B0286143953970602B2222BFF /* libBGFMDB.a */,
+				B1F8C4EBC310B7C4470D1E9066167A5A /* libPods-BGTest.a */,
+				D1547F0569F0F52236D07F6C9348D484 /* libSWTableViewCell.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB988013F832AFA9B1EBA00F1B1B1D89 /* Pods-BGTest */ = {
+			isa = PBXGroup;
+			children = (
+				EFF78EF0CD0C6FCB541A8AE5CB0ECAEC /* Pods-BGTest-acknowledgements.markdown */,
+				13DF9A6411A8A690A72B40623420261E /* Pods-BGTest-acknowledgements.plist */,
+				80B0D0463599A988A5B9CBD517AEB6DE /* Pods-BGTest-dummy.m */,
+				2DFC5146DB2E51E69933A5BD0F7851DE /* Pods-BGTest-frameworks.sh */,
+				79EF9E297ECFD49B24F9E772A60D976E /* Pods-BGTest-resources.sh */,
+				70107804CC2168CD2E919DEDF3B53290 /* Pods-BGTest.debug.xcconfig */,
+				CF79CA92DBC83E9FDB786BD0262867C5 /* Pods-BGTest.release.xcconfig */,
+			);
+			name = "Pods-BGTest";
+			path = "Target Support Files/Pods-BGTest";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B06242508AE46ACD76EFF3016AF77A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95BC7A6FC4A711FFD92CFD7073F43CE /* NSMutableArray+SWUtilityButtons.h in Headers */,
+				B33716ED4225F14EB6E1E1845CE2D7E6 /* SWCellScrollView.h in Headers */,
+				B5671BD0819965E8165F3624BEC698FD /* SWLongPressGestureRecognizer.h in Headers */,
+				A7DCC1CF693D415DB22912B2348E2BB7 /* SWTableViewCell.h in Headers */,
+				9E89A9B5BE00B044514F3B9A693F67EB /* SWUtilityButtonTapGestureRecognizer.h in Headers */,
+				A5122E314371FADD8592DA1D5A6C2690 /* SWUtilityButtonView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD77D8E457DA0EBD6492CC6C6B8CDBB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382AA1F0C89C80244B1158A2A5968803 /* BGDB.h in Headers */,
+				11F643DC6137502DFAF29BACD936DC64 /* BGFMDB.h in Headers */,
+				AF7DAAA6145A3179F4E08D0892E6D2F3 /* BGFMDBConfig.h in Headers */,
+				91EE79AA77EC71BB3538B1280ACA6FF0 /* BGModelInfo.h in Headers */,
+				3217265B44BB7A0FFCE5A321AF75208D /* BGTool.h in Headers */,
+				C034C9C1756728A24AD6F85222E91EF4 /* FMDatabase.h in Headers */,
+				16BE2365A8C5B6932ECFD28273611771 /* FMDatabaseAdditions.h in Headers */,
+				35CF9A3D999BAF790FF4E9E31980DFB6 /* FMDatabasePool.h in Headers */,
+				72C63514343A39820B36A515CD4226A0 /* FMDatabaseQueue.h in Headers */,
+				68E2229000D2AFFC33049DD285A2C37E /* FMDB.h in Headers */,
+				CD57848DA92B85C7BD5829AACFB92D4F /* FMResultSet.h in Headers */,
+				C8DDFFEE576F86B7B8E2E44B55605487 /* NSCache+BGCache.h in Headers */,
+				9D937054E9943AF89F6269B5D32FC7B1 /* NSObject+BGModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F77BA67BA985F9F539357610AF82734 /* SWTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5B39679AE33A85682263D06B7582A3 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */;
+			buildPhases = (
+				FA77BD879145CED22ABD68F22069DBC7 /* Sources */,
+				8F63CC704597DAF9495022AA4DE8489B /* Frameworks */,
+				5B06242508AE46ACD76EFF3016AF77A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWTableViewCell;
+			productName = SWTableViewCell;
+			productReference = D1547F0569F0F52236D07F6C9348D484 /* libSWTableViewCell.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3FDA0B89046F28B1B2AAE4CC9C16E2C7 /* BGFMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7813D4B5CF4995898AC99ADBF2849F4F /* Build configuration list for PBXNativeTarget "BGFMDB" */;
+			buildPhases = (
+				26A4DFE62FC0CD1A3BA2F5E91A02A772 /* Sources */,
+				2571CD68B81FC228CD0E56E08AC15A00 /* Frameworks */,
+				CD77D8E457DA0EBD6492CC6C6B8CDBB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BGFMDB;
+			productName = BGFMDB;
+			productReference = A136824B0286143953970602B2222BFF /* libBGFMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6E1813D23334145CFB19CA1E27D9DED5 /* Pods-BGTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E7A953E8DD946F39DBE33BA3104E18B /* Build configuration list for PBXNativeTarget "Pods-BGTest" */;
+			buildPhases = (
+				BC65EE1A1DF227C1193D467A6EAF718A /* Sources */,
+				61AF3FF01E02194C23AB4246AE290DE4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821CC2F70154B9F117ED4166F4CBB01C /* PBXTargetDependency */,
+				D25BD487FE598751B94FC8E04251EB91 /* PBXTargetDependency */,
+			);
+			name = "Pods-BGTest";
+			productName = "Pods-BGTest";
+			productReference = B1F8C4EBC310B7C4470D1E9066167A5A /* libPods-BGTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F25B91E7B6743DDF5E30902EEFCA6384 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FDA0B89046F28B1B2AAE4CC9C16E2C7 /* BGFMDB */,
+				6E1813D23334145CFB19CA1E27D9DED5 /* Pods-BGTest */,
+				0F77BA67BA985F9F539357610AF82734 /* SWTableViewCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26A4DFE62FC0CD1A3BA2F5E91A02A772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B03A2E159B10F5D8248A6D3DEB5EDD /* BGDB.m in Sources */,
+				17BB2ED8E1E20872C5A1CF1F5408F828 /* BGFMDB-dummy.m in Sources */,
+				87338109C7B868A34B78325C0BF55226 /* BGModelInfo.m in Sources */,
+				7D803D1DD1BC256DC80A23585715F25B /* BGTool.m in Sources */,
+				6B9ED125A3D8299BAA8C4F18CE666B73 /* FMDatabase.m in Sources */,
+				0EBCBB46C675F7A748FDFB23C22E2907 /* FMDatabaseAdditions.m in Sources */,
+				D07839532BA92F3035F23A183E2A5AC3 /* FMDatabasePool.m in Sources */,
+				B8E7213FD6CCC110842100CD307A8346 /* FMDatabaseQueue.m in Sources */,
+				6A88C9E82DD68D466E8380EB5EE4EE40 /* FMResultSet.m in Sources */,
+				DEDE0114F1BBE9353529030F47420326 /* NSCache+BGCache.m in Sources */,
+				5E8ECAB4EBF0B15B4A0944DF39B9FE85 /* NSObject+BGModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC65EE1A1DF227C1193D467A6EAF718A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4183FE2D8354E991C7B002E65D87CF3 /* Pods-BGTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA77BD879145CED22ABD68F22069DBC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E81B176141E5DF2D04F2503B6D5C035 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				F754C21A5DCC7859B1C684F7B7321C69 /* SWCellScrollView.m in Sources */,
+				BF2FB87EB918428671108370FC8A4E67 /* SWLongPressGestureRecognizer.m in Sources */,
+				D3AB649AE72FBA6A749F7D0EE38FC224 /* SWTableViewCell-dummy.m in Sources */,
+				618CA59A93EA060BC3AF64427F2470FE /* SWTableViewCell.m in Sources */,
+				05DD0C4370034274DD2275C751554A82 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				02555892B04DC23EBF0F5FD934EB98BB /* SWUtilityButtonView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		821CC2F70154B9F117ED4166F4CBB01C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BGFMDB;
+			target = 3FDA0B89046F28B1B2AAE4CC9C16E2C7 /* BGFMDB */;
+			targetProxy = 69BF21F0F5E406B9B0E3748DC73114A3 /* PBXContainerItemProxy */;
+		};
+		D25BD487FE598751B94FC8E04251EB91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWTableViewCell;
+			target = 0F77BA67BA985F9F539357610AF82734 /* SWTableViewCell */;
+			targetProxy = 5A2866E2262380D30C49429A71268D29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0413A396E0DE7238935C995BFF61C94B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F44D49878ED68754A0FFEA45047A8E9 /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41B21E539748770214FA79E36291F6F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F44D49878ED68754A0FFEA45047A8E9 /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D808A761A5F9C11D00ED66B1B369886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36807E6AFCD2BDA89FB4521F0F70056 /* BGFMDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BGFMDB/BGFMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68600EDB73265A0C78F1063DFB9B0A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF79CA92DBC83E9FDB786BD0262867C5 /* Pods-BGTest.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D3E654B109016D302E76FCC8855D350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70107804CC2168CD2E919DEDF3B53290 /* Pods-BGTest.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EECB9CDC392086A5C98FA9637DD36B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36807E6AFCD2BDA89FB4521F0F70056 /* BGFMDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BGFMDB/BGFMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E7A953E8DD946F39DBE33BA3104E18B /* Build configuration list for PBXNativeTarget "Pods-BGTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D3E654B109016D302E76FCC8855D350 /* Debug */,
+				68600EDB73265A0C78F1063DFB9B0A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7813D4B5CF4995898AC99ADBF2849F4F /* Build configuration list for PBXNativeTarget "BGFMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECB9CDC392086A5C98FA9637DD36B5E /* Debug */,
+				5D808A761A5F9C11D00ED66B1B369886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5B39679AE33A85682263D06B7582A3 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0413A396E0DE7238935C995BFF61C94B /* Debug */,
+				41B21E539748770214FA79E36291F6F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
